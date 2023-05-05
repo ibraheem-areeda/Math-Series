@@ -1,6 +1,6 @@
 def fibonacci_recursion(n):
     '''
-    function take 1 argument which is n
+    function take 1 argument which is n (reqiured)
     return the nth value in the fibonacci series
     using recursion
     '''
@@ -13,7 +13,7 @@ def fibonacci_recursion(n):
     
 def lucas_recursion(n):
     '''
-     function take 1 argument which is n
+     function take 1 argument which is n (reqiured)
      return the nth value in the lucas series
      using recursion
     '''
@@ -42,7 +42,9 @@ def sum_series ( n , start_val1=None , start_val2=None ):
         return sum_series(n-2 ,start_val1,start_val2 ) + sum_series(n-1,start_val1,start_val2)
 
 if __name__ == "__main__": 
-    sum_series(5)
+    
+    print("ok")
+    print(sum_series(5))
 
    
     
